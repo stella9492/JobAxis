@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobAxis Kenya - Employer Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome CDN -->
+</head>
+<body>
+
+<header>
+    <h1>
+        <img src="images/jobaaxis-logo.png" alt="JobAxis Kenya Logo" class="logo"> <!-- Updated logo name -->
+    </h1>
+    <nav class="main-nav">
+        <div class="nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="employer.html" class="active"><i class="fas fa-briefcase"></i> Post a Job</a>
+            <a href="job seeker.html"><i class="fas fa-search"></i> Find a Job</a>
+            <a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+        <div class="auth-links">
+            <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="signup.html" class="signup-btn"><i class="fas fa-user-plus"></i> Sign Up</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero-section">
+        <h2>Welcome Employers</h2>
+        <p>Log in to your Employer Account</p>
+        
+        <form id="login-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="remember-device">
+                <label for="remember-device">Remember this device</label>
+                <a href="#" class="forgot-password">Forgot your Password?</a>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign In</button>
+            </div>
+            <p>Post unlimited jobs for free!</p>
+        </form>
+    </section>
+
+    <section class="features-section">
+        <h2>Why Choose JobAxis Kenya?</h2>
+        <div class="feature">
+            <i class="fas fa-user-friends"></i>
+            <p>Recruiter searching for job candidates.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-download"></i>
+            <p>Download unlimited CVs of the applicants to your jobs.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-user-check"></i>
+            <p>Recruiter welcoming in a job interview.</p>
+        </div>
+    </section>
+
+    <section class="call-to-action">
+        <h3>Don't have an account?</h3>
+        <p>Are you a Jobseeker? <a href="jobseeker_signup.html">Sign up here</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 JobAxis Kenya. All rights reserved.</p> <!-- Updated footer text -->
+</footer>
+
+</body>
+</html>
